@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(imagem/The-Walking-Dead-©-Netflix\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 96px 16px 96px;
+}
+
+header{
+    background-color: brown;
+    height: 50px;
+}
+main{
+    background-color: rgb(147, 96, 196);
+    flex-grow: 1;
+}
+footer{
+    background-color: aqua;
+    height: 50px;
+}
